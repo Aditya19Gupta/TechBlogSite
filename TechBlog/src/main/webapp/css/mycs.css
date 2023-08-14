@@ -1,0 +1,130 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 18, 2023, 1:55:31 PM
+    Author     : USER
+*/
+
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                border: none;
+                text-decoration: none;
+                font-family: 'Poppins',sans-serif;
+                overflow: none;
+                scroll-behavior: smooth;
+
+            }
+            
+            #nav{
+                justify-content: center;
+                content:fixed;
+            }
+            body{
+                background: var(--bg-color);
+            }
+            .primary-bg{
+                background:#1f242d ;
+                color:var(--text-color)
+            }
+            :root{
+                --bg-color:#1f242d;
+                --second-bg-color:#323946;
+                --text-color:#fff;
+                --main-color:#0ef;
+            }
+            #nav #main{
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: var(--main-color);
+                text-shadow: 0 0 1rem var(--main-color);
+            }
+            #nav #main i{
+                color: red;
+                text-shadow: 0 0 1rem red;
+            }
+            #nav .dropdown-item{
+                color: #000;
+                transition: .5s;
+            }
+            #nav .dropdown-item:hover{
+                color:#000;
+                font-weight: 500;
+            }
+            a{
+                background: transparent;
+                transition: 0.3s;
+                font-size: 1rem;
+                font-weight: 600;
+                color:#fff;
+            }
+
+            #nav a i:hover{
+                background: transparent;
+                color: var(--main-color);
+            }
+            #sbutton{
+                color: var(--main-color);
+                border: 2px solid var(--main-color);
+            }
+            #sbutton:hover{
+                background: var(--main-color);
+                color:#000;
+            }
+            .jumbotron{
+                background: var(--second-bg-color);
+                color: var(--text-color);
+            }
+            .jumbotron h3 span{
+                color: var(--main-color);
+            }
+            .container #button1{
+                background: transparent;
+                border: 1.5px solid var(--main-color);
+                box-shadow: 0 0 1rem var(--main-color);
+                margin-right: 1.5rem;
+                transition: .5s;
+            }
+            .container a{
+                background: transparent;
+                border: 1.5px solid var(--main-color);
+                box-shadow: 0 0 1rem var(--main-color);
+                transition: .5s;
+                
+                justify-content: center;
+            }
+            .container #button1:hover{
+                background: var(--main-color);
+                color:var(--bg-color);
+                box-shadow: none;
+                border: none;
+                margin-right: 1.5rem;
+               
+
+            }
+            .container a:hover{
+                background: var(--main-color);
+                color:var(--bg-color);
+                box-shadow: none;
+                border: none;
+                 content: fixed;
+            }
+            
+            .col-md-4 .card{
+                background: transparent;
+                color:#fff;
+                border: .1rem solid var(--main-color);
+                transition: .1s;
+            }
+            .col-md-4 .card:hover{
+                box-shadow: 0 0 1rem var(--main-color);
+                
+            }
+            .col-md-4 .card-header{
+                background: var(--second-bg-color);
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
